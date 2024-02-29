@@ -1,0 +1,58 @@
+header {
+  position: static;
+}
+
+#page-logo a {
+  padding: 10px;
+  font-family: "Oleo Script", sans-serif;
+  color: rgb(238, 255, 0);
+  font-size: 50px;
+  text-decoration: none;
+  text-shadow: 5px 2px 2px rgb(255, 0, 0);
+}
+
+body {
+  background: -webkit-linear-gradient(grey, #4f4f4f);
+}
+
+main ul {
+  width: 1200px;
+  margin: 0 auto 48px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
+}
+
+main li {
+  display: flex;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+}
+main li img {
+  width: 300px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.item-content {
+  padding: 24px;
+}
+
+.item-content h2 {
+  margin: 0;
+}
+li:nth-of-type(3) {
+  grid-column: 1 / span 2;
+}
+
+li:nth-of-type(6) {
+  grid-column: 1 / span 2;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(0, 217, 255);
+}
